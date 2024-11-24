@@ -821,126 +821,6 @@
 				)
 			)
 		)
-		(symbol "VBUS_1"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VBUS_1_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "iclr:LM66200DRLR"
 			(pin_names
 				(offset 0.762)
@@ -2284,12 +2164,6 @@
 		(uuid "43fb0a3d-a75c-4a89-929f-3bfabd56e48f")
 	)
 	(junction
-		(at 118.11 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "792ddd88-964e-4235-ac0e-65ab8a968ccd")
-	)
-	(junction
 		(at 172.72 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2503,16 +2377,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 76.2) (xy 118.11 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "387e88d5-12f7-4406-9187-6916bec744b1")
-	)
-	(wire
-		(pts
 			(xy 45.72 88.9) (xy 55.88 88.9)
 		)
 		(stroke
@@ -2623,7 +2487,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 76.2) (xy 123.19 76.2)
+			(xy 114.3 76.2) (xy 123.19 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4387,73 +4251,6 @@
 		)
 	)
 	(symbol
-		(lib_name "VBUS_1")
-		(lib_id "power:VBUS")
-		(at 118.11 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7082317a-8918-4a12-a9e9-ca281f0fd8ff")
-		(property "Reference" "#PWR073"
-			(at 118.11 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 118.11 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 118.11 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12f02fbf-c394-4b82-bb39-c4be70a4add5")
-		)
-		(instances
-			(project ""
-				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 138.43 91.44 0)
 		(unit 1)
@@ -4726,7 +4523,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ee255d4-7316-456b-89ab-295ec2aa8428")
-		(property "Reference" "BOOTJUMPER3"
+		(property "Reference" "POWER_MAIN1"
 			(at 186.69 66.04 90)
 			(effects
 				(font
@@ -4780,7 +4577,7 @@
 		(instances
 			(project "RicardoTemplate"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-					(reference "BOOTJUMPER3")
+					(reference "POWER_MAIN1")
 					(unit 1)
 				)
 			)
@@ -5837,7 +5634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb313ba5-62dc-43e7-91b4-5c257df1e2d1")
-		(property "Reference" "FB1"
+		(property "Reference" "FB_P1"
 			(at 205.7019 69.85 90)
 			(effects
 				(font
@@ -5889,7 +5686,7 @@
 		(instances
 			(project "RicardoTemplate"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/48a413b4-b7c2-44ac-971c-583c31b73475"
-					(reference "FB1")
+					(reference "FB_P1")
 					(unit 1)
 				)
 			)

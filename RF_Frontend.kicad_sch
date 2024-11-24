@@ -3741,12 +3741,6 @@
 		(uuid "e3b0d7b5-9673-49ec-b861-e41727cdd1f9")
 	)
 	(junction
-		(at 246.38 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4869de1-d19a-4354-9dc4-5ff9a9505e7f")
-	)
-	(junction
 		(at 167.64 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6439,7 +6433,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11401f68-4ae9-4b37-8f74-75b75516f796")
-		(property "Reference" "BOOTJUMPER2"
+		(property "Reference" "POWER_RADIO1"
 			(at 213.36 26.67 90)
 			(effects
 				(font
@@ -6493,7 +6487,7 @@
 		(instances
 			(project "RicardoTemplate"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/ecfc1314-a0cb-4bac-a35c-d2175f1c7197"
-					(reference "BOOTJUMPER2")
+					(reference "POWER_RADIO1")
 					(unit 1)
 				)
 			)
@@ -6646,8 +6640,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c335422-0ff4-41ce-a31e-230fa2383102")
-		(property "Reference" "J4"
-			(at 255.27 141.2631 0)
+		(property "Reference" "ANT1"
+			(at 254 141.2631 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6656,7 +6650,7 @@
 			)
 		)
 		(property "Value" "SMA"
-			(at 255.27 143.8031 0)
+			(at 254 143.8031 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6700,7 +6694,7 @@
 		(instances
 			(project "RicardoTemplate"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/ecfc1314-a0cb-4bac-a35c-d2175f1c7197"
-					(reference "J4")
+					(reference "ANT1")
 					(unit 1)
 				)
 			)
@@ -7721,72 +7715,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 246.38 36.83 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d1d2ea0-a658-4f85-a875-ce9081a7090b")
-		(property "Reference" "TP22"
-			(at 251.1552 35.6616 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 251.1552 37.973 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 246.38 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 246.38 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 246.38 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "59c3d35e-52a0-4af1-a51b-8661f3b54946")
-		)
-		(instances
-			(project "RicardoTemplate"
-				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/ecfc1314-a0cb-4bac-a35c-d2175f1c7197"
-					(reference "TP22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 167.64 87.63 0)
 		(unit 1)
@@ -8328,7 +8256,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5fe8b099-40eb-42c6-824b-88423fa58c8c")
-		(property "Reference" "ANT1"
+		(property "Reference" "ANT_S1"
 			(at 37.1348 126.8984 90)
 			(effects
 				(font
@@ -8379,7 +8307,7 @@
 		(instances
 			(project "RicardoTemplate"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/ecfc1314-a0cb-4bac-a35c-d2175f1c7197"
-					(reference "ANT1")
+					(reference "ANT_S1")
 					(unit 1)
 				)
 			)
@@ -9891,9 +9819,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "adc6b945-a2b3-49a1-b119-ea8bfb73d3b4")
-		(property "Reference" "FB4"
+		(property "Reference" "FB_R1"
 			(at 236.1819 30.48 90)
 			(effects
 				(font
@@ -9945,7 +9872,7 @@
 		(instances
 			(project "RicardoTemplate"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/ecfc1314-a0cb-4bac-a35c-d2175f1c7197"
-					(reference "FB4")
+					(reference "FB_R1")
 					(unit 1)
 				)
 			)

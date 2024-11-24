@@ -3869,16 +3869,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 118.11) (xy 69.85 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82ffc77e-ef30-45fb-a8c3-07133113d6f5")
-	)
-	(wire
-		(pts
 			(xy 165.1 36.83) (xy 160.02 36.83)
 		)
 		(stroke
@@ -3946,16 +3936,6 @@
 			(type default)
 		)
 		(uuid "8e69aa56-30c6-4a32-afa8-ca82b7ca6fe3")
-	)
-	(wire
-		(pts
-			(xy 63.5 125.73) (xy 69.85 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9142268e-93d3-4e78-88f6-1693d0cacc12")
 	)
 	(polyline
 		(pts
@@ -4219,16 +4199,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 123.19) (xy 69.85 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df668ea3-7542-49aa-9547-b65cbe22b67f")
-	)
-	(wire
-		(pts
 			(xy 30.48 191.77) (xy 39.37 191.77)
 		)
 		(stroke
@@ -4326,16 +4296,6 @@
 			(type default)
 		)
 		(uuid "f3e4f781-5f85-4ab6-b2b5-3483a16e105b")
-	)
-	(wire
-		(pts
-			(xy 63.5 120.65) (xy 69.85 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4b585f1-fda9-42a8-bfbf-3bd71c93f331")
 	)
 	(wire
 		(pts
@@ -6816,7 +6776,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0967eaf7-3e4f-4a2f-9d90-7cb2691f23b6")
-		(property "Reference" "TP9"
+		(property "Reference" "CANTX1"
 			(at 25.7048 55.7784 90)
 			(effects
 				(font
@@ -6867,7 +6827,7 @@
 		(instances
 			(project "RicardoTemplate"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
-					(reference "TP9")
+					(reference "CANTX1")
 					(unit 1)
 				)
 			)
@@ -7602,80 +7562,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 58.42 123.19 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "572a0051-26d6-48e7-820c-d93a247bfb38")
-		(property "Reference" "JTAG1"
-			(at 58.42 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JTAG"
-			(at 58.42 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 58.42 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 58.42 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "189d0e17-0428-43c0-8dae-4d57e64b810e")
-		)
-		(pin "2"
-			(uuid "292a054c-021a-4461-bc15-d6e9f03727f9")
-		)
-		(pin "1"
-			(uuid "02ccc1ac-5e0a-4419-97e1-0f8e5d3252ac")
-		)
-		(pin "4"
-			(uuid "df2c7206-38c7-4b85-afe2-9d726ddb4116")
-		)
-		(instances
-			(project "RicardoTemplate"
-				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
-					(reference "JTAG1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED_Small")
 		(at 25.4 40.64 0)
 		(unit 1)
@@ -8077,72 +7963,6 @@
 			(project "RicardoTemplate"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 86.36 16.51 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "75ddea8c-251c-4f0c-b232-84b783396978")
-		(property "Reference" "TP25"
-			(at 91.1352 15.3416 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 91.1352 17.653 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 86.36 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 86.36 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "10210c38-2655-4147-90ff-c8570ffc3034")
-		)
-		(instances
-			(project "RicardoTemplate"
-				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
-					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -8892,7 +8712,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b79adfd9-dbae-480d-ab5a-2a9c412479a2")
-		(property "Reference" "TP10"
+		(property "Reference" "CANRX1"
 			(at 25.7048 60.8584 90)
 			(effects
 				(font
@@ -8943,73 +8763,7 @@
 		(instances
 			(project "RicardoTemplate"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
-					(reference "TP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 86.36 21.59 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c0a30dd4-9004-487c-a0c1-3920a2534b6d")
-		(property "Reference" "TP24"
-			(at 91.1352 20.4216 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 91.1352 22.733 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 86.36 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 86.36 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fed5a8f8-474e-480b-bd67-fcd858751281")
-		)
-		(instances
-			(project "RicardoTemplate"
-				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
-					(reference "TP24")
+					(reference "CANRX1")
 					(unit 1)
 				)
 			)
